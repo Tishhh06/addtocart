@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+aside,
+main {
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.card {
+	text-align: center;
+}
+
+
